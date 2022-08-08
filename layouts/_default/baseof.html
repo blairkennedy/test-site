@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ .Site.Params.custom_css }}">
+    <title>my-new-site</title>
+  </head>
+  <body>
+    <header>
+        <h2>This is the header</h2>
+    </header>
+    <!-- main content block  -->
+    {{ block "main" . }}
+    {{ end }}
+    
+    <footer>This is the footer.</footer>
+  </body>
+</html>

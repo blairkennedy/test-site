@@ -1,0 +1,6 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+[params]
+custom_css = "css/custom.css"
