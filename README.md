@@ -6,7 +6,7 @@ Learnings here are used to drive main website development [https://blairkennedy.
 
 
 ```mermaid
-flowchart
+flowchart LR
   A[start] -- Some Text --> B(Continue)
   B --> C(Evaluate)
   C -- One --> D[Option 1]
